@@ -16,90 +16,6 @@ const divContainerHeroStyle = css`
   justify-content: center;
   -webkit-box-align: center;
   align-items: center;
-
-  /* z-index: 99999; */
-  /* max-width: 1160px;
-  padding: 0px 10px;
-  margin: auto; */
-  /* margin-right: auto;
-  margin-bottom: 13px;
-  margin-left: auto; */
-
-  /* line-height: 24px; */
-  /* text-align: left; */
-  /* box-sizing: border-box; */
-  /* display: flex;
-  align-items: center;
-  justify-content: space-between; */
-`;
-// const logoStyle = css`
-//   display: flex;
-//   align-items: center;
-//   /* position: absolute; */
-//   top: 7px;
-//   font-family: 'DM sans', sans-serif;
-//   left: 9px;
-//   /* margin-bottom: 0;
-//   margin-top: 0; */
-//   margin-left: 0;
-//   color: white;
-//   font-size: 16px;
-//   line-height: 20px;
-//   font-weight: 300;
-//   text-align: center;
-//   letter-spacing: 1.2px;
-//   box-sizing: border-box;
-//   margin-block-start: 0.67em;
-//   margin-block-end: 0.67em;
-//   margin-inline-start: 0px;
-//   margin-inline-end: 0px;
-
-//   cursor: pointer;
-// `;
-
-const iconStyle = css`
-  position: relative;
-  display: block;
-  width: 40px;
-  height: 20px;
-  /* margin-top: 0px;
-  margin-left: 0; */
-  color: #fff;
-`;
-
-// const menuStyle = css`
-//   position: relative;
-//   top: -1px;
-//   display: block;
-//   margin-left: 0;
-//   font-family: 'DM Sans', sans-serif;
-//   font-size: 14px;
-//   font-weight: 400;
-//   letter-spacing: 0.2px;
-//   text-decoration: none;
-//   box-sizing: border-box;
-//   -webkit-box-direction: normal;
-//   line-height: 24px;
-//   text-align: left;
-//   gap: 20px;
-// `;
-
-const buttonDemoStyle = css`
-  padding: 13px 10px 0 15px;
-  border: 1px #fc687b;
-  border-radius: 45px;
-  background-color: #fd576c;
-  box-shadow: 0 0 0 6px rgb(253 87 108 / 25%);
-  -webkit-transition: box-shadow 0.2s, background-color 0.2s;
-  transition: box-shadow 0.2s, background-color 0.2s;
-  font-family: 'DM Sans', sans-serif;
-  color: #fff;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  text-align: center;
-  letter-spacing: 1px;
-  cursor: pointer;
 `;
 
 const bodyStyle = css`
@@ -111,17 +27,12 @@ const bodyStyle = css`
   box-sizing: border-box;
   display: block;
   -webkit-text-size-adjust: 100%;
+
   @media screen and (min-width: 1440px) {
     font-family: 'DM Sans', sans-serif;
     font-size: 18px;
   }
 `;
-
-// const backgroundPictureStyle = css`
-//   width: 100%;
-//   height: 90vh;
-//   object-fit: cover;
-// `;
 
 const heroTextStyle = css`
   position: relative;
@@ -134,6 +45,7 @@ const heroTextStyle = css`
   flex-direction: column;
   -webkit-box-align: center;
   align-items: center;
+
   @media screen and (min-width: 1440px) {
     width: 700px;
   }
@@ -150,6 +62,7 @@ const heroFirstHeadingStyle = css`
   letter-spacing: 0.5px;
   text-shadow: 1px 1px 7px rgb(0 0 0 / 10%);
   margin: 0.67em 0;
+
   @media screen and (min-width: 1440px) {
     font-size: 2.8em;
     line-height: 1.1em;
@@ -161,27 +74,13 @@ const heroFirstHeadingTextStyle = css`
   font-family: 'DM Sans', sans-serif;
   color: #fff;
   font-size: 44px;
-
   font-weight: 700;
   text-transform: capitalize;
+
   @media screen and (min-width: 1440px) {
     line-height: 46px;
   }
 `;
-
-// const heroTextStyle = css`
-//   font-family: 'DM Sans', sans-serif;
-//   color: #fff;
-//   font-size: 44px;
-//   line-height: 56px;
-//   font-weight: 700;
-//   text-transform: capitalize;
-//   box-sizing: border-box;
-//   text-align: center;
-//   letter-spacing: 0.5px;
-//   -webkit-box-direction: normal;
-//   -webkit-text-size-adjust: 100%;
-// `;
 
 const heroSecondHeadingStyle = css`
   margin-top: 10px;
@@ -197,6 +96,7 @@ const heroSecondHeadingStyle = css`
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+
   @media screen and (min-width: 1440px) {
     width: 600px;
     margin-bottom: 30px;
@@ -228,6 +128,8 @@ const buttonPriceStyle = css`
   text-align: center;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+  cursor: pointer;
+
   @media screen and (min-width: 1440px) {
     margin-right: 0;
     font-family: 'DM Sans', sans-serif;
@@ -249,8 +151,10 @@ const companyLogoStyle = css`
   padding-bottom: 40px;
   box-sizing: border-box;
 `;
+
 const bodyDivStyle = css`
   object-fit: fill;
+
   @media screen and (min-width: 1440px) {
     overflow: hidden;
   }
@@ -268,6 +172,7 @@ const heroSectionStyle = css`
   -webkit-box-align: center;
   align-items: center;
   background-image: url(${BackgroundPicture});
+
   @media screen and (min-width: 1440px) {
     margin-top: -8px;
     background-position: 50% 50%;
@@ -282,6 +187,7 @@ const navWrapperHomeStyle = css`
   right: 0;
   bottom: auto;
   z-index: 99999;
+
   @media screen and (min-width: 1440px) {
     background-color: hsla(0, 0%, 100%, 0);
   }
@@ -295,10 +201,12 @@ const navigationHomeStyle = css`
   bottom: auto;
   z-index: 99999;
   display: block;
+
   @media screen and (min-width: 1440px) {
     background-color: hsla(0, 0%, 100%, 0);
   }
 `;
+
 const navigationBarStyle = css`
   position: relative;
   z-index: 99999;
@@ -316,6 +224,7 @@ const navigationBarStyle = css`
   bottom: auto;
   align-items: center;
   background: #ddd;
+
   @media screen and (min-width: 1440px) {
     height: 80px;
     background-color: hsla(0, 0%, 100%, 0);
@@ -333,6 +242,7 @@ const navigationBarDivStyle = css`
   line-height: 24px;
   text-align: left;
   box-sizing: border-box;
+
   @media screen and (min-width: 1440px) {
     height: auto;
     margin-bottom: 10px;
@@ -348,6 +258,7 @@ const navigationLogoStyle = css`
   text-decoration: none;
   color: #333;
   background-color: transparent;
+
   @media screen and (min-width: 1440px) {
     top: 1px;
   }
@@ -359,6 +270,7 @@ const logoDivStyle = css`
   justify-content: center;
   -webkit-box-align: center;
   align-items: center;
+  cursor: pointer;
 `;
 
 const logoStyle = css`
@@ -367,7 +279,7 @@ const logoStyle = css`
   margin-left: 0;
   color: #fff;
   border: 0;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   max-width: 100%;
   @media screen and (min-width: 1440px) {
     width: 35px;
@@ -388,8 +300,293 @@ const logoTextStyle = css`
   letter-spacing: 1.2px;
   margin-top: 0;
   margin: 0.67em 0;
+
   @media screen and (min-width: 1440px) {
     font-size: 15px;
+  }
+`;
+
+const navigationMenuStyle = css`
+  top: -22px;
+  overflow: visible;
+  height: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  background-color: rgba(28, 49, 119, 0);
+  position: relative;
+  display: flex;
+  z-index: 0;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  color: #fff;
+  float: right;
+  cursor: pointer;
+
+  @media screen and (min-width: 1440px) {
+    margin-top: 10px;
+    padding-top: 0;
+  }
+`;
+
+const navCaseStudiesStyle = css`
+  position: relative;
+  top: -1px;
+  display: block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+
+  @media screen and (min-width: 1440px) {
+    margin-right: 0.3vw;
+    margin-left: 0.3vw;
+  }
+`;
+
+const caseStudiesTextStyle = css`
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'DM sans', sans-serif;
+  text-align: left;
+  letter-spacing: 0.5px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+
+  @media screen and (min-width: 1440px) {
+    height: 20px;
+    color: #fff;
+  }
+`;
+
+const navPricingStyle = css`
+  position: relative;
+  top: -1px;
+  display: block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+
+  @media screen and (min-width: 1440px) {
+    margin-right: 0.3vw;
+    margin-left: 0.3vw;
+  }
+`;
+
+const pricingTextStyle = css`
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'DM sans', sans-serif;
+  text-align: left;
+  letter-spacing: 0.5px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+
+  @media screen and (min-width: 1440px) {
+    height: 20px;
+    color: #fff;
+  }
+`;
+
+const navOurWorkStyle = css`
+  position: relative;
+  top: -1px;
+  display: block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+
+  @media screen and (min-width: 1440px) {
+    margin-right: 0.3vw;
+    margin-left: 0.3vw;
+  }
+`;
+
+const ourWorkTextStyle = css`
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'DM sans', sans-serif;
+  text-align: left;
+  letter-spacing: 0.5px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+
+  @media screen and (min-width: 1440px) {
+    height: 20px;
+    color: #fff;
+  }
+`;
+
+const navOurPlatformStyle = css`
+  position: relative;
+  top: -1px;
+  display: block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+
+  @media screen and (min-width: 1440px) {
+    margin-right: 0.3vw;
+    margin-left: 0.3vw;
+  }
+`;
+
+const ourPlatformTextStyle = css`
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'DM sans', sans-serif;
+  text-align: left;
+  letter-spacing: 0.5px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+
+  @media screen and (min-width: 1440px) {
+    height: 20px;
+    color: #fff;
+  }
+`;
+
+const navMoreStyle = css`
+  position: relative;
+  top: -1px;
+  display: block;
+
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+
+  @media screen and (min-width: 1440px) {
+    margin-right: 0.3vw;
+    margin-left: 0.3vw;
+  }
+`;
+
+const moreTextStyle = css`
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'DM sans', sans-serif;
+  text-align: left;
+  letter-spacing: 0.5px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+
+  @media screen and (min-width: 1440px) {
+    height: 20px;
+    color: #fff;
+  }
+`;
+
+const navLogInStyle = css`
+  position: relative;
+  top: -1px;
+  display: block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+
+  @media screen and (min-width: 1440px) {
+    margin-right: 0.3vw;
+    margin-left: 0.3vw;
+  }
+`;
+
+const logInTextStyle = css`
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'DM sans', sans-serif;
+  text-align: left;
+  letter-spacing: 0.5px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+
+  @media screen and (min-width: 1440px) {
+    height: 20px;
+    color: #fff;
+  }
+`;
+
+const navScheduleDemoStyle = css`
+  height: auto;
+  padding-bottom: 5px;
+`;
+
+const scheduleDemoButtonStyle = css`
+  top: 4px;
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin-top: 7px;
+  margin-right: 0;
+  margin-left: 30px;
+  padding: 13px 10px 0 15px;
+  border: 1px #fc687b;
+  border-radius: 45px;
+  background-color: #fd576c;
+  box-shadow: 0 0 0 6px rgb(253 87 108 / 25%);
+  transition: box-shadow 0.2s, background-color 0.2s;
+  font-family: 'DM Sans', sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 1px;
+  position: relative;
+  vertical-align: top;
+  text-decoration: none;
+
+  @media screen and (min-width: 1440px) {
+    padding-top: 14px;
+    border-width: 0.1vw;
+    font-size: 14px;
+    line-height: 20px;
   }
 `;
 
@@ -411,9 +608,31 @@ function App() {
                   <br />
                 </h1>
               </div>
-              <nav>
-                <div></div>
-              </nav>
+              <div /*css={navigationMenuButtonStyle}*/>
+                <nav css={navigationMenuStyle}>
+                  <div css={navCaseStudiesStyle}>
+                    <a css={caseStudiesTextStyle}>Case Studies</a>
+                  </div>
+                  <div css={navPricingStyle}>
+                    <a css={pricingTextStyle}>Pricing</a>
+                  </div>
+                  <div css={navOurWorkStyle}>
+                    <a css={ourWorkTextStyle}>Our Work</a>
+                  </div>
+                  <div css={navOurPlatformStyle}>
+                    <a css={ourPlatformTextStyle}>Our Platform</a>
+                  </div>
+                  <div css={navMoreStyle}>
+                    <a css={moreTextStyle}>More</a>
+                  </div>
+                  <div css={navLogInStyle}>
+                    <a css={logInTextStyle}>Login</a>
+                  </div>
+                  <div css={navScheduleDemoStyle}>
+                    <a css={scheduleDemoButtonStyle}>Schedule Demo</a>
+                  </div>
+                </nav>
+              </div>
             </div>
           </div>
         </div>
@@ -451,52 +670,3 @@ function App() {
   );
 }
 export default App;
-
-// function App() {
-//   return (
-//     <div css={background}>
-//       <section>
-//         <img
-//           css={backgroundPictureStyle}
-//           src={BackgroundPicture}
-//           alt="not loading"
-//         />
-//         <nav css={navigationStyle}>
-//           <div css={logoStyle}>
-//             <LogoIcon css={iconStyle} />
-//             pixeltrue
-//           </div>
-//           {/* <div css={menuStyle}>
-//             <a>Case Studies</a>
-//             <a>Pricing</a>
-//             <a>Our Work</a>
-//             <a>Our Platform</a>
-//             <a>More</a>
-//             <a>Login</a>
-//           </div> */}
-//           <div>
-//             <button css={buttonDemoStyle}>Schedule Demo</button>
-//           </div>
-//         </nav>
-//         <div css={heroPositionStyle}>
-//           <h1 css={heroStyle}>
-//             <strong css={heroTextStyle}>
-//               Get A Superhero Design Team To Grow Your Business
-//             </strong>
-//           </h1>
-//           <h2 css={introTextStyle}>
-//             We provide an experienced design team that works with you everyday
-//             to create high-quality design to help grow your business. Zero
-//             headaches, fixed pricing and no contracts.
-//           </h2>
-//           <button css={buttonPriceStyle}>see our pricing</button>
-//         </div>
-//       </section>
-//       <section css={companyLogoStyle}>
-//         <div css={companyContainerStyle}>
-//           <div css={companyBlockStyle}></div>
-//         </div>
-//       </section>
-//     </div>
-//   );
-// }
