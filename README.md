@@ -1,6 +1,6 @@
-##Creating landing page with React and [`emotion`](https://emotion.sh/docs/introduction).
+##Creating landing page with React 
 
-Rebuild it in React (looking at the code as little as possible).
+Rebuild it in React and [`emotion`](https://emotion.sh/docs/introduction). 
 
 
 # Getting Started with Create React App
