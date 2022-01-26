@@ -1,4 +1,4 @@
-##Creating landing page with React 
+## Creating landing page with React 
 
 Rebuild it in React and [`emotion`](https://emotion.sh/docs/introduction). 
 
