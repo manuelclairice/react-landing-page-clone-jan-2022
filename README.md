@@ -1,3 +1,8 @@
+Implement landing page with React and [`emotion`](https://emotion.sh/docs/introduction).
+
+Rebuild it in React (looking at the code as little as possible).
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
