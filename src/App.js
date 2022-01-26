@@ -142,15 +142,15 @@ const buttonPriceStyle = css`
   }
 `;
 
-const companyLogoStyle = css`
-  width: 100%;
-  height: auto;
-  margin-top: 70px px;
-  margin-bottom: 20px;
-  padding-top: 0;
-  padding-bottom: 40px;
-  box-sizing: border-box;
-`;
+// const companyLogoStyle = css`
+//   width: 100%;
+//   height: auto;
+//   margin-top: 70px px;
+//   margin-bottom: 20px;
+//   padding-top: 0;
+//   padding-bottom: 40px;
+//   box-sizing: border-box;
+// `;
 
 const bodyDivStyle = css`
   object-fit: fill;
@@ -180,18 +180,18 @@ const heroSectionStyle = css`
   }
 `;
 
-const navWrapperHomeStyle = css`
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: auto;
-  z-index: 99999;
+// const navWrapperHomeStyle = css`
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   right: 0;
+//   bottom: auto;
+//   z-index: 99999;
 
-  @media screen and (min-width: 1440px) {
-    background-color: hsla(0, 0%, 100%, 0);
-  }
-`;
+//   @media screen and (min-width: 1440px) {
+//     background-color: hsla(0, 0%, 100%, 0);
+//   }
+// `;
 
 const navigationHomeStyle = css`
   position: absolute;
@@ -579,7 +579,7 @@ const scheduleDemoButtonStyle = css`
   text-align: center;
   letter-spacing: 1px;
   position: relative;
-  vertical-align: top;
+  /* vertical-align: top; */
   text-decoration: none;
 
   @media screen and (min-width: 1440px) {
@@ -590,9 +590,9 @@ const scheduleDemoButtonStyle = css`
   }
 `;
 
-const companyContainerStyle = css``;
+// const companyContainerStyle = css``;
 
-const companyBlockStyle = css``;
+// const companyBlockStyle = css``;
 
 function App() {
   return (
@@ -608,7 +608,7 @@ function App() {
                   <br />
                 </h1>
               </div>
-              <div /*css={navigationMenuButtonStyle}*/>
+              <div /* css={navigationMenuButtonStyle} */>
                 <nav css={navigationMenuStyle}>
                   <div css={navCaseStudiesStyle}>
                     <a css={caseStudiesTextStyle}>Case Studies</a>
@@ -638,7 +638,7 @@ function App() {
         </div>
       </div>
       <div css={bodyDivStyle}>
-        <div css={navWrapperHomeStyle}></div>
+        {/* <div css={navWrapperHomeStyle}></div> */}
         <section css={heroSectionStyle}>
           <div css={divContainerHeroStyle}>
             <div css={heroTextStyle}>
@@ -660,11 +660,11 @@ function App() {
             </div>
           </div>
         </section>
-        <section css={companyLogoStyle}>
+        {/* <section css={companyLogoStyle}>
           <div css={companyContainerStyle}>
             <div css={companyBlockStyle}></div>
           </div>
-        </section>
+        </section> */}
       </div>
     </body>
   );
