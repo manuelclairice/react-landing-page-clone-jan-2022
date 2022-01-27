@@ -1,6 +1,5 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
-// import { disconnect } from 'process';
 import BackgroundPicture from './images/backgroundTopSection.png';
 import logoIcon from './images/logo.svg';
 
