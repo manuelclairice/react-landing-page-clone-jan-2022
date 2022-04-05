@@ -7,7 +7,7 @@ An UpLeveled Bootcamp project build with React
    - React
    - JavaScript
    - @emotion
-   - Jest-dom
+  
 
   ## Deployment
    - Netlify
